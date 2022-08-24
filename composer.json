@@ -1,0 +1,20 @@
+{
+    "name": "sergenkabakci/digisms",
+    "description": "Simple api for digisms",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "sergenkabakci\\Digisms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergen Kabakci",
+			"email": "sergen@digicell.com.tr"
+        }
+    ]
+}
