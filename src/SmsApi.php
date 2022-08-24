@@ -1,5 +1,5 @@
 <?php
-
+namespace sergenkabakci\digisms;
 	require_once('Err.php');
 	require_once('DataCoding.php');
 	require_once('SendSingleSms.php');

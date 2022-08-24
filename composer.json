@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "sergenkabakci\\Digisms\\": "src/"
+            "sergenkabakci\\digisms\\": "src/"
         }
     },
 	"minimum-stability": "stable",
