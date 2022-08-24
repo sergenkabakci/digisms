@@ -1,3 +1,6 @@
+```
+composer require sergenkabakci/digisms
+```
 ```php
 $smsApi = new SmsApi("toplusms.digicell.com.tr","username","password");
 
