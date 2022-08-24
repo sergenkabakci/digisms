@@ -1,4 +1,4 @@
-
+```php
 $smsApi = new SmsApi("toplusms.digicell.com.tr","username","password");
 
 $request = new SendSingleSms();
@@ -23,9 +23,10 @@ $request->sender = "Gönderen Başlığı";
 $response = $smsApi->sendSingleSms($request);
 
 if($response->err == null){
-echo "MessageId: ".$response->pkgID."\n";
+    echo "MessageId: ".$response->pkgID."\n";
 }else{
-echo "Status: ".$response->err->status."\n";
-echo "Code: ".$response->err->code."\n";
-echo "Message: ".$response->err->message."\n";
-}					
+    echo "Status: ".$response->err->status."\n";
+    echo "Code: ".$response->err->code."\n";
+    echo "Message: ".$response->err->message."\n";
+}
+```
