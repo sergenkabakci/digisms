@@ -1,4 +1,5 @@
 <?php
+namespace sergenkabakci\digisms; 
 	class SendOTPSms {
 		public $content;
 		public $number;
@@ -26,7 +27,7 @@
     		}
 
 			if(!is_null($this->skipAhsQuery)){
-				$jsonSrting["skipAhsQuery"] = this->skipAhsQuery;
+				$jsonSrting["skipAhsQuery"] = $this->skipAhsQuery;
     		}
 
 	    	return $jsonSrting;

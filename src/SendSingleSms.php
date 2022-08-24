@@ -1,4 +1,5 @@
 <?php
+namespace sergenkabakci\digisms; 
 	class SendSingleSms {
 		public $title;
 		public $content;
@@ -34,7 +35,7 @@
     		}
 
 			if(!is_null($this->skipAhsQuery)){
-				$jsonSrting["skipAhsQuery"] = this->skipAhsQuery;
+				$jsonSrting["skipAhsQuery"] = $this->skipAhsQuery;
     		}
 
 	    	return $jsonSrting;

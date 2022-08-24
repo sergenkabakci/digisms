@@ -1,4 +1,5 @@
 <?php
+namespace sergenkabakci\digisms; 
 	require_once('SmsItem.php');
 
 	class SendDynamicSms {
@@ -36,7 +37,7 @@
     		}
 
 			if(!is_null($this->skipAhsQuery)){
-				$jsonSrting["skipAhsQuery"] = this->skipAhsQuery;
+				$jsonSrting["skipAhsQuery"] = $this->skipAhsQuery;
     		}
 
 	    	return $jsonSrting;
