@@ -1,4 +1,5 @@
 <?php
+	namespace sergenkabakci\digisms; 
 	class SmsItem {
 		public $nr;
 	 	public $msg;

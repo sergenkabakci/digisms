@@ -1,4 +1,5 @@
 <?php
+	namespace sergenkabakci\digisms; 
 	class PushSettings {
 		public $url;
 	}

@@ -1,4 +1,5 @@
 <?php
+namespace sergenkabakci\digisms; 
 	class Statistics {
 		public $total;
 		public $credit;

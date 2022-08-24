@@ -1,4 +1,5 @@
 <?php
+	namespace sergenkabakci\digisms; 
 	class SmsReportDetailItem {
 		public $id;
 		public $msg;

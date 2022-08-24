@@ -1,4 +1,5 @@
 <?php
+	namespace sergenkabakci\digisms; 
 
 	class GetSmsReports {
 		public $ids = null;

@@ -1,5 +1,5 @@
 <?php
-
+	namespace sergenkabakci\digisms; 
 	class GetSmsReportDetails {
 		public $pkgID;
 		public $target = null;

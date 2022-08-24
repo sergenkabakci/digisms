@@ -1,5 +1,5 @@
 <?php
-	
+	namespace sergenkabakci\digisms; 
 	require_once('Statistics.php');
 
 	class SmsReportItem {
