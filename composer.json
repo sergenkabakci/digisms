@@ -11,6 +11,7 @@
             "sergenkabakci\\Digisms\\": "src/"
         }
     },
+	"minimum-stability": "stable",
     "authors": [
         {
             "name": "Sergen Kabakci",
